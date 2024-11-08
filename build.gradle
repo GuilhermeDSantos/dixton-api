@@ -7,9 +7,11 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
+    implementation 'net.dixton:dixton-common:1.0-SNAPSHOT'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
